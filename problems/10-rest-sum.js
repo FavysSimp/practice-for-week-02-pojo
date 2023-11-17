@@ -10,6 +10,8 @@ restSum(0); // => 0
 ***********************************************************************/
 
 function restSum(...otherNums) {
+
+  return otherNums.reduce((sum, el) => sum += el);
   // Your code here
 }
 
